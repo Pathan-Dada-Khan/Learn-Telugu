@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Numbers"
+        android:icon="@drawable/ic_list_numbered"
+        android:id="@+id/numbers"/>
+    <item
+        android:title="Family"
+        android:icon="@drawable/ic_family"
+        android:id="@+id/family"/>
+    <item
+        android:title="Colors"
+        android:icon="@drawable/ic_color"
+        android:id="@+id/colors"/>
+    <item
+        android:title="Phrases"
+        android:icon="@drawable/ic_phrases"
+        android:id="@+id/phrases"/>
+
+</menu>

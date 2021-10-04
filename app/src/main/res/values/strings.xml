@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Learn Telugu</string>
+    <string name="nums">NUMBERS</string>
+    <string name="fm">FAMILY</string>
+    <string name="colors">COLORS</string>
+    <string name="phrases">PHRASES</string>
+</resources>

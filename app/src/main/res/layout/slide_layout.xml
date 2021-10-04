@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:id="@+id/board_img"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/bording_numbers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NUMBERS"
+        android:padding="16dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FF0000"
+        android:id="@+id/board_head"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_below="@id/board_img"/>
+    <TextView
+        android:id="@+id/board_des"
+        android:layout_below="@id/board_head"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_margin="16dp"
+        android:text="Learn 0 to 50 number in telugu from english"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" />
+</RelativeLayout>
